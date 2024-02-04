@@ -6,7 +6,7 @@ ${browser}    chrome
 ${url}    https://www.google.com
 
 *** Test Cases ***
-LoginTest
+SearchTest
     open browser    ${url}    ${browser}
     SearchText
     
