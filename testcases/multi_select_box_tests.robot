@@ -16,4 +16,6 @@ MultiSelectTests
     Sleep    2
     Select From List By Value    //*[@id='multiselect1']    audix
     Sleep    2
+    Unselect All From List    //*[@id='multiselect1']
+    Sleep    2
     Close Browser

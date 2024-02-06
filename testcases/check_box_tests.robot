@@ -9,6 +9,7 @@ ${url}    https://omayo.blogspot.com/
 CheckBoxTest
     Open Browser    ${url}    ${browser}
     Maximize Browser Window
+    # This will wait 3 seconds after each statement
     Set Selenium Speed    3
 
     Select Checkbox    id:checkbox1
