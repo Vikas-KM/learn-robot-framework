@@ -2,11 +2,11 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${url}    https://omayo.blogspot.com/
+${url}    https://demo.automationtesting.in/Register.html
 ${browser}    chrome
 
 *** Test Cases ***
-AlertTests
+FrameTests
     Open Browser    ${url}    ${browser}
     Maximize Browser Window
 
